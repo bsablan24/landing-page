@@ -67,7 +67,11 @@
     }
 
     footer {
+        background-color: #1f2937;
         font-size: 18px;
         color: #f9faf8;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
     }
 
