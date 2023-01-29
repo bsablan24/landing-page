@@ -66,6 +66,13 @@
         align-self: flex-end;
     }
 
+    .headline {
+        font-size: 36px;
+        font-weight: bolder;
+       display: flex; 
+       justify-content: center;
+    }
+
     footer {
         background-color: #1f2937;
         font-size: 18px;
