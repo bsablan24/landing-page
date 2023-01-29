@@ -73,6 +73,22 @@
        justify-content: center;
     }
 
+    .veggies {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .broccoli, .corn, .garlic, .thing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-color:#3882f6;
+    }
+
+    
+
     footer {
         background-color: #1f2937;
         font-size: 18px;
