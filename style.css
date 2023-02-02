@@ -116,8 +116,7 @@
         color: black;
         font-size: 36px;
         font-style: italic;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 200;
+        font-family: sans-serif;
     }
 
     .guy {
@@ -127,9 +126,41 @@
         flex-direction: row-reverse;
     }
 
+    .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+        margin: 70px;
+        padding: 25px;
+        border-radius: 8px;
+        background-color: #3882f6;
+        
+    }
+
+     p.text {
+        color: #f9faf8;
+        font-weight: bold;
+    }
+
+    .moretext {
+        font-weight: 200;
+    }
+
+    button.action {
+        background-color: #3882f6;
+        color: #f9faf8;
+        border-radius: 8px;
+        border-color: #f9faf8;
+        height: fit-content;
+        padding: 8px 30px;
+    }
+
      footer {
         background-color: #1f2937;
         font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
         color: #f9faf8;
         display: flex;
         justify-content: center;
